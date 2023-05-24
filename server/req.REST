@@ -1,0 +1,11 @@
+POST http://localhost:5500/api/list
+Content-Type: application/json
+
+{
+    "list" : "Second work added"
+}
+
+#####
+
+GET http://localhost:5500/api/lists
+Content-Type: application/json
