@@ -9,3 +9,17 @@ Content-Type: application/json
 
 GET http://localhost:5500/api/lists
 Content-Type: application/json
+
+#####
+
+PUT http://localhost:5500/api/list/646e1bcfe8b81d86a8c5fe1d
+Content-Type: application/json
+
+{
+    "list" : "First work is updated"
+}
+
+#####
+
+Delete http://localhost:5500/api/list/646e1bcfe8b81d86a8c5fe1d
+Content-Type: application/json
