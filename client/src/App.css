@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
-  width: 500px;
+  background-color: #afc1e7;
+  width: 600px;
   margin: 50px auto;
   padding: 10px;
   border-radius: 8px;
@@ -14,16 +14,17 @@
 }
 
 .form {
-  display: flex;
+  display: center;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 12px;
 }
 
 .form input[type="text"] {
   padding: 10px;
   width: 85%;
-  border: 1px solid #eee;
+  border: 1px solid #e7dada;
   border-radius: 6px;
 }
 
@@ -35,8 +36,9 @@
   background-color: #008080;
   color: #fff;
   border: none;
-  border-radius: 6px;
-  padding: 10px;
+  border-radius: 60px;
+  padding: 14px;
+  margin-left: 14px;
   cursor: pointer;
 }
 
@@ -73,4 +75,21 @@
 .delete-item {
   background-color: red;
   color: #fff;
+}
+.update-form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.update-new-input {
+  width: 80%;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  padding: 8px;
+  outline: none;
+}
+.update-new-btn {
+  background-color: darkorchid;
+  color: #fff;
+  cursor: pointer;
 }
